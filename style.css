@@ -29,6 +29,10 @@ img {
     float: right;
 }
 
+#platform {
+    width: auto;
+}
+
 .item {
     margin: 10px;
 }
