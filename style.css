@@ -21,18 +21,6 @@ img {
     float: right;
 }
 
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(2, 25%);
-    grid-template-rows: repeat(2, 50%);
-    aspect-ratio: 1;
-    float: right;
-}
-
-#platform {
-    width: auto;
-}
-
 .item {
     margin: 10px;
 }
