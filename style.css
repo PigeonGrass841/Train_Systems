@@ -125,6 +125,7 @@ input {
 }
 
 iframe {
+    height: auto;
     width: 50%;
     aspect-ratio: 16/9;
     float: left;
