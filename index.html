@@ -96,10 +96,12 @@
         </div>
         <!--Travel time form-->
         <div class="item">
-            <form action="#">
-                <label for="time">What is your average travel time using the New York City Subway?</label>
-                <input type="text" id="time" name="time">
-                <input type="submit" value="Submit">
+            <form action="form.php" method="post">
+                <div>
+                    <label for="time">What is your average amount of time spent on the New York City subway?</label>
+                    <input type="number" id="time" name="time">
+                </div>
+                <button type="submit">Submit</button>
             </form>
         </div>
     </div>
